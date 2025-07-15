@@ -1,5 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { RainbowButton } from "@/components/magicui/rainbow-button";
+import { AnimatedGradientText } from "@/components/magicui/animated-gradient-text";
+import { AnimatedGradientTextDemo } from "@/components/magicui/animated-demo";
 
 export default function Home() {
   return (
@@ -19,7 +22,9 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
-
+        <AnimatedGradientTextDemo />
+        <AnimatedGradientText>ABCDEFG</AnimatedGradientText>
+        <RainbowButton variant="outline">Get Unlimited Access</RainbowButton>
         <div className={styles.ctas}>
           <a
             className={styles.primary}
