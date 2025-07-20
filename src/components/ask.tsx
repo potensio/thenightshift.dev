@@ -4,7 +4,7 @@ import { RainbowButton } from "./magicui/rainbow-button";
 export default function AskSection() {
   return (
     <>
-      <SpotlightCard className="p-8 md:p-16 flex flex-col md:flex-row gap-6 md:gap-10 items-center justify-between">
+      <SpotlightCard className="p-8 md:p-16 max-w-5xl mx-auto flex flex-col md:flex-row gap-6 md:gap-10 items-center justify-between">
         {" "}
         <div className="space-y-4">
           <h3 className="text-white text-3xl md:text-4xl font-medium">
@@ -14,9 +14,11 @@ export default function AskSection() {
             I’d love to help. Just send me an email or check the FAQ again.
           </p>
         </div>
-        <RainbowButton size={"lg"} className="w-full md:w-fit">
-          Email Me
-        </RainbowButton>
+        <a href="mailto:hanifyaskur@gmail.com" className="w-full md:w-fit">
+          <RainbowButton size={"lg"} className="w-full md:w-fit">
+            Email Me
+          </RainbowButton>
+        </a>
       </SpotlightCard>
     </>
   );

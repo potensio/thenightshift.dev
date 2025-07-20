@@ -3,10 +3,11 @@
 import { AnimatedGradientText } from "./magicui/animated-gradient-text";
 import { SpotlightCard } from "./magicui/spotlight-card";
 import { Check } from "lucide-react";
+import { RainbowButton } from "./magicui/rainbow-button";
 
 export default function HireMeSection() {
   return (
-    <section className="w-full py-24 px-4 md:px-20 flex flex-col md:flex-row border-b border-dashed border-secondary gap-12">
+    <section className="flex flex-col md:flex-row gap-12">
       <div className="flex flex-col w-full gap-8">
         <div className="flex flex-col">
           <AnimatedGradientText className="mb-2">Pricing</AnimatedGradientText>
@@ -35,7 +36,7 @@ export default function HireMeSection() {
             <div className="flex flex-row gap-1 items-center">
               <h4 className="text-xl font-medium">Project Based</h4>
               <p className="border border-border w-fit rounded-full px-2">
-                Starting from $2800
+                Starting from $3800
               </p>
             </div>
             <p className="">
@@ -44,6 +45,9 @@ export default function HireMeSection() {
               start.
             </p>
           </div>
+          <RainbowButton size={"lg"} className="w-fit mt-5">
+            Schedule Call
+          </RainbowButton>
         </div>
       </div>
 
@@ -58,7 +62,7 @@ export default function HireMeSection() {
             30-day warranty
           </div>
           <p style={{ color: "var(--paragraph-text)" }}>
-            Spend at least $2K and get warranty for 30 days after delivery.
+            Spend at least $2K and get warranty for 14 days after delivery.
           </p>
         </SpotlightCard>
 

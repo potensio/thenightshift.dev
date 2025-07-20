@@ -11,7 +11,7 @@ import { SoftwareDevelopmentIllustration } from "./software-development";
 
 export default function ServicesSection() {
   return (
-    <section className="w-full py-24 px-4 flex flex-col items-center border-b border-l border-r border-dashed border-secondary">
+    <>
       <SectionHeader
         title="Services"
         subtitle="Things I’m good at "
@@ -53,6 +53,12 @@ export default function ServicesSection() {
               height={20}
             />
             <Image
+              src="/bubble-logo.svg"
+              alt="Deskripsi gambar"
+              width={20}
+              height={20}
+            />
+            <Image
               src="/neon-logo.svg"
               alt="Deskripsi gambar"
               width={20}
@@ -83,11 +89,11 @@ export default function ServicesSection() {
             Workflow Automation
           </div>
 
-          <p className="mb-5" style={{ color: "var(--paragraph-text)" }}>
+          <p className="mb-5 text-lg text-muted-foreground">
             Let bots do the boring stuff. Automate with n8n, connect your tools,
             and scale without the stress.
           </p>
-          {/* <div className="flex gap-4 mb-6">
+          <div className="flex gap-4 mb-6">
             <Image
               src="/n8n-logo.svg"
               alt="Deskripsi gambar"
@@ -100,7 +106,7 @@ export default function ServicesSection() {
               width={20}
               height={20}
             />
-          </div> */}
+          </div>
           <AutomationIllustration />
         </SpotlightCard>
 
@@ -158,6 +164,6 @@ export default function ServicesSection() {
           </div>
         </SpotlightCard> */}
       </div>
-    </section>
+    </>
   );
 }

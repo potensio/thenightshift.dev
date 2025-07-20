@@ -40,9 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${satoshi.className} flex flex-col w-full max-w-7xl mx-auto`}
-      >
+      <body className={`${satoshi.className} flex flex-col w-full`}>
         {children}
       </body>
     </html>
