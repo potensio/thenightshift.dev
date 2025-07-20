@@ -5,7 +5,6 @@ import HireMeSection from "@/components/hire-me";
 import ContactSection from "@/components/contact";
 import Footer from "@/components/footer";
 import AskSection from "@/components/ask";
-import { Carousel } from "@/components/magicui/carousel";
 import { SectionBordered, Section } from "@/components/magicui/section";
 
 export default function Home() {

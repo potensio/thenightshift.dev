@@ -1,6 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
-
-import Image from "next/image";
 
 export const Carousel = () => {
   // Images for the infinite scroll - using ,Unsplash URLs

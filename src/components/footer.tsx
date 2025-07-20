@@ -23,47 +23,46 @@ interface Footer2Props {
 }
 
 const Footer = ({
-  tagline = "Components made easy.",
-  menuItems = [
-    {
-      title: "Product",
-      links: [
-        { text: "Overview", url: "#" },
-        { text: "Pricing", url: "#" },
-        { text: "Marketplace", url: "#" },
-        { text: "Features", url: "#" },
-        { text: "Integrations", url: "#" },
-        { text: "Pricing", url: "#" },
-      ],
-    },
-    {
-      title: "Company",
-      links: [
-        { text: "About", url: "#" },
-        { text: "Team", url: "#" },
-        { text: "Blog", url: "#" },
-        { text: "Careers", url: "#" },
-        { text: "Contact", url: "#" },
-        { text: "Privacy", url: "#" },
-      ],
-    },
-    {
-      title: "Resources",
-      links: [
-        { text: "Help", url: "#" },
-        { text: "Sales", url: "#" },
-        { text: "Advertise", url: "#" },
-      ],
-    },
-    {
-      title: "Social",
-      links: [
-        { text: "Twitter", url: "#" },
-        { text: "Instagram", url: "#" },
-        { text: "LinkedIn", url: "#" },
-      ],
-    },
-  ],
+  // menuItems = [
+  //   {
+  //     title: "Product",
+  //     links: [
+  //       { text: "Overview", url: "#" },
+  //       { text: "Pricing", url: "#" },
+  //       { text: "Marketplace", url: "#" },
+  //       { text: "Features", url: "#" },
+  //       { text: "Integrations", url: "#" },
+  //       { text: "Pricing", url: "#" },
+  //     ],
+  //   },
+  //   {
+  //     title: "Company",
+  //     links: [
+  //       { text: "About", url: "#" },
+  //       { text: "Team", url: "#" },
+  //       { text: "Blog", url: "#" },
+  //       { text: "Careers", url: "#" },
+  //       { text: "Contact", url: "#" },
+  //       { text: "Privacy", url: "#" },
+  //     ],
+  //   },
+  //   {
+  //     title: "Resources",
+  //     links: [
+  //       { text: "Help", url: "#" },
+  //       { text: "Sales", url: "#" },
+  //       { text: "Advertise", url: "#" },
+  //     ],
+  //   },
+  //   {
+  //     title: "Social",
+  //     links: [
+  //       { text: "Twitter", url: "#" },
+  //       { text: "Instagram", url: "#" },
+  //       { text: "LinkedIn", url: "#" },
+  //     ],
+  //   },
+  // ],
   copyright = "© 2024 THENIGHTSHIFT.DEV",
   bottomLinks = [
     { text: "Terms and Conditions", url: "#" },
